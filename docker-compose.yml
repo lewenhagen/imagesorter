@@ -1,0 +1,7 @@
+version: "3"
+services:
+  imagesorter:
+    image: "lewenhagen/imagesorter:1.0"
+    volumes:
+      - "./images:/app/images"
+      - "./result:/app/result"
